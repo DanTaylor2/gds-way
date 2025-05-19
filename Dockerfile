@@ -18,3 +18,4 @@ RUN bundle check
 WORKDIR /usr/src/docs
 
 CMD [ "bundle", "exec", "--gemfile=/usr/src/gems/Gemfile", "middleman", "server" ]
+ 
